@@ -9,6 +9,7 @@ const nextConfig = {
         hostname: 'images.unsplash.com',
       },
     ],
+    unoptimized: true,
   },
   webpack(config) {
     config.module.rules.push({
@@ -17,6 +18,9 @@ const nextConfig = {
     });
     return config;
   },
+  output: 'export',
+  trailingSlash: true,
+  basePath: '/game_portfolio_web',
 };
 
 module.exports = nextConfig; 
