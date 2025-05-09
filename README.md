@@ -1,4 +1,4 @@
-# Christopher Cruz - Game Developer Portfolio
+# Game Developer Portfolio
 
 A modern, responsive portfolio website showcasing game development projects, skills, and experience.
 
@@ -34,7 +34,7 @@ npm install
 
 3. Create a `.env.local` file with your email configuration:
 ```
-EMAIL_USER=your.email@outlook.com
+EMAIL_USER=game.king001@hotmail.com
 EMAIL_PASS=your_app_password
 ```
 
